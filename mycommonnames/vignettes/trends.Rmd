@@ -1,0 +1,22 @@
+---
+title: "Trends in American Baby Names"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Trends in American Baby Names}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(mycommonnames)
+library(ggplot2)
+library(dplyr)
+```
+
