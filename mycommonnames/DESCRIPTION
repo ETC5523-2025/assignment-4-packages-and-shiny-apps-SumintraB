@@ -1,9 +1,12 @@
 Package: mycommonnames
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Exploring Common Names in America
+Version: 1.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Sumintra", "Boonmat", , "sboo0019@student.monash.edu", role = c("aut", "cre"))
+Description: The mycommonnames package includes a Shiny web application for exploring patterns in common names. 
+Users can interactively view frequency trends, 
+filter by categories such as gender or year, and visualise results through dynamic plots. 
+The package supports reproducible data workflows by including both the cleaned dataset and utility functions used in the app.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
