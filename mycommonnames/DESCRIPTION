@@ -1,12 +1,11 @@
 Package: mycommonnames
-Title: Exploring Common Names in America
+Title: An R package for exploring the most common first names in America
 Version: 1.0
 Authors@R: 
     person("Sumintra", "Boonmat", , "sboo0019@student.monash.edu", role = c("aut", "cre"))
-Description: The mycommonnames package includes a Shiny web application for exploring patterns in common names. 
-Users can interactively view frequency trends, 
-filter by categories such as gender or year, and visualise results through dynamic plots. 
-The package supports reproducible data workflows by including both the cleaned dataset and utility functions used in the app.
+Description: Explore long-term trends in U.S. baby-name popularity (1880–2021)
+ using data from the Social Security Administration. Includes a dataset of
+ names, counts, and proportions plus an interactive Shiny app for exploration.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
