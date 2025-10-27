@@ -38,3 +38,8 @@ head(names)
 # Launch the interactive app
 launch_app()
 ```
+
+## Documentation
+
+**Full site:**
+<https://etc5523-2025.github.io/assignment-4-packages-and-shiny-apps-SumintraB/>
