@@ -14,9 +14,36 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup}
+# Introduction
+
+This vignette explores long-term patterns in American baby names
+using the dataset included in the `mycommonnames` package.
+
+# Data overview
+
+```{r}
 library(mycommonnames)
 library(ggplot2)
 library(dplyr)
+glimpse(names)
 ```
+
+# Example: name trends
+
+```{r}
+names |>
+filter(name %in% c("Samantha", "Scarlette"), sex == "F") |>
+ggplot(aes(year, count, color = name)) +
+geom_line(linewidth = 1.2) +
+labs(x = "Year", y = "Number of babies", color = "Name") +
+theme_minimal()
+```
+
+# Summary
+
+The mycommonnames dataset and Shiny app let users explore how naming
+popularity evolves over time. For example, Samantha dominated in
+the 90s, while Scarlette rose early 20s.
+
+
 
