@@ -39,6 +39,12 @@ head(names)
 launch_app()
 ```
 
+## Launch the App
+
+``` r
+mycommonnames::launch_app()
+```
+
 ## Documentation
 
 **Full site:**
